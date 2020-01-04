@@ -1,7 +1,5 @@
 #footer-section {
-  background: #f0f0f0;
-  /* Social media */
-  /* Footer lists */
+  background: #ededed;
 }
 
 #footer-section .row {
@@ -14,8 +12,7 @@
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background: #263238;
-  color: #f0f0f0;
+  color: #ededed;
   -webkit-transition: ease-in-out .1s;
   transition: ease-in-out .1s;
 }
@@ -26,7 +23,7 @@
 }
 
 #footer-section .link:hover {
-  background: #aaaaaa;
+  background: #717171;
 }
 
 #footer-section .footer-list {

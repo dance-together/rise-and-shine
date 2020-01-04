@@ -1,8 +1,12 @@
 header {
-  background: whitesmoke;
+  background: #ededed;
   -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
   letter-spacing: 2px;
+}
+
+#button-mobile-shape {
+  margin-top: -20px;
 }
 
 header img {
@@ -11,20 +15,20 @@ header img {
 }
 
 header ul {
-  background-color: whitesmoke;
+  background-color: #ededed;
   padding-left: 10px;
 }
 
 header .nav-link {
   color: black;
   padding-bottom: 13px;
-  border-bottom: 2px solid whitesmoke;
+  border-bottom: 2px solid #ededed;
   -webkit-transition: ease-in-out .3s;
   transition: ease-in-out .3s;
 }
 
 header .nav-link:hover {
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid #bdbdbd;
   color: gray;
 }
 

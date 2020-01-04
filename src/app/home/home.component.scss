@@ -1,18 +1,17 @@
 
+@import '../../_colors.scss';
 
-.card-img-top {
-    cursor: pointer;
-}
+
 
 #carousel-text-color-darkgrey {
- color: darkgrey;
+ color: darken($dark-gray, 2%)
 }
 
 #carousel-text-color-wheat {
-    color: wheat;
+    color: darken($white, 9%)
    }
    #carousel-text-color-white {
-    color: white;
+    color:$white;
    }
 
 img {
@@ -38,7 +37,7 @@ img {
 }
 
 h1 {
-    color: darkgrey;
+    color:darken($white,20%);
 }
 
 .card-deck img {
@@ -48,7 +47,9 @@ h1 {
 .text p {
     font-size: 15px;
 }
-
-/* #more {
-    display: none;
-} */
+#card-img-text{
+    color: darken($white,1%);
+}
+#card-img-text strong{
+    color: darken($white,50%);
+}

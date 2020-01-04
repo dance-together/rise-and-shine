@@ -1,17 +1,13 @@
-.card-img-top {
-  cursor: pointer;
-}
-
 #carousel-text-color-darkgrey {
-  color: darkgrey;
+  color: #7b7b7b;
 }
 
 #carousel-text-color-wheat {
-  color: wheat;
+  color: #d9d9d9;
 }
 
 #carousel-text-color-white {
-  color: white;
+  color: #f0f0f0;
 }
 
 img {
@@ -33,7 +29,7 @@ img {
 }
 
 h1 {
-  color: darkgrey;
+  color: #bdbdbd;
 }
 
 .card-deck img {
@@ -44,7 +40,11 @@ h1 {
   font-size: 15px;
 }
 
-/* #more {
-    display: none;
-} */
+#card-img-text {
+  color: #ededed;
+}
+
+#card-img-text strong {
+  color: #717171;
+}
 /*# sourceMappingURL=home.component.css.map */
