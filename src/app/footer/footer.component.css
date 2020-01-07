@@ -12,6 +12,7 @@
   height: 50px;
   width: 50px;
   border-radius: 50%;
+  background: #575757;
   color: #ededed;
   -webkit-transition: ease-in-out .1s;
   transition: ease-in-out .1s;

@@ -23,6 +23,10 @@ button, img {
   cursor: pointer;
 }
 
+#more {
+  display: none;
+}
+
 #myBtn {
   display: none;
   position: fixed;

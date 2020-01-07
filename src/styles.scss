@@ -20,8 +20,10 @@
     button, img {
       cursor: pointer;
     }
+    //  readmore
     
-    
+    #more {display: none;}
+    // scroll
     #myBtn {
       display: none;
       position: fixed;
