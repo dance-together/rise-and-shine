@@ -10,9 +10,8 @@
   color: #f0f0f0;
 }
 
-img {
-  width: 100%;
-  height: 400px;
+.carousel-item img {
+  max-height: 580px;
 }
 
 .main {
@@ -23,7 +22,6 @@ img {
 .carousel-inner img {
   vertical-align: middle;
   border-style: none;
-  /* height: 600px; */
   height: 100%;
   width: 100%;
 }
@@ -46,5 +44,12 @@ h1 {
 
 #card-img-text strong {
   color: #717171;
+}
+
+@media only screen and (max-width: 650px) {
+  #home-last-image {
+    max-width: 80%;
+    height: 100%;
+  }
 }
 /*# sourceMappingURL=home.component.css.map */
