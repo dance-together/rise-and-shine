@@ -1,14 +1,13 @@
-
 @import '../../_colors.scss';
 
 
-
+ 
 #carousel-text-color-darkgrey {
- color: darken($dark-gray, 2%)
+ color: $white($dark-gray, 2%)
 }
-
+ 
 #carousel-text-color-wheat {
-    color: darken($white, 9%)
+    color: $white($white, 9%)
    }
    #carousel-text-color-white {
     color:$white;
@@ -16,31 +15,31 @@
 .carousel-item img {
     max-height: 580px;
 }
-
+ 
 .main {
-
+ 
     padding-top: 20px;
     padding-bottom: 10px;
     
 }
 
 
-
+ 
 .carousel-inner img {
     vertical-align: middle;
     border-style: none;
   height: 100%;
   width: 100%;
 }
-
+ 
 h1 {
     color:darken($white,20%);
 }
-
+ 
 .card-deck img {
     height: 400px;
 }
-
+ 
 .text p {
     font-size: 15px;
 }

@@ -23,6 +23,12 @@
     //  readmore
     
     #more {display: none;}
+    #readmore{
+      background-color:darken($white,10%);
+      border-radius: 40px;
+       cursor: pointer;
+        padding: 0 8px 0 8px;
+  }
     // scroll
     #myBtn {
       display: none;

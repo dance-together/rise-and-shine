@@ -27,6 +27,13 @@ button, img {
   display: none;
 }
 
+#readmore {
+  background-color: #d7d7d7;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 0 8px 0 8px;
+}
+
 #myBtn {
   display: none;
   position: fixed;
