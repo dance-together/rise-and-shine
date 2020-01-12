@@ -4,10 +4,12 @@
     background:darken($white,1%);
   }
   
-  #footer-section .row {
+  #footer-section {
     margin: 0;
   }
-  
+  .row{
+margin: 0 6% 0 6%;
+  }
   #footer-section .link {
     position: relative;
     text-decoration: none;
@@ -37,6 +39,7 @@
   #footer-section .footer-list h5 {
     font-weight: 400;
     letter-spacing: 2px;
+    color: darken($white,50%);
   }
   
   #footer-section .footer-list li {

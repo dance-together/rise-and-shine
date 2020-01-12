@@ -2,8 +2,12 @@
   background: #ededed;
 }
 
-#footer-section .row {
+#footer-section {
   margin: 0;
+}
+
+.row {
+  margin: 0 6% 0 6%;
 }
 
 #footer-section .link {
@@ -35,6 +39,7 @@
 #footer-section .footer-list h5 {
   font-weight: 400;
   letter-spacing: 2px;
+  color: #717171;
 }
 
 #footer-section .footer-list li {

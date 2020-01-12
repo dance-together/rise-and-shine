@@ -11,10 +11,7 @@ hr.style-eight {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px;
-    }
-    
-    
-    
+    } 
     
       .map-container-section {
         overflow: hidden;
@@ -34,7 +31,7 @@ hr.style-eight {
     
         #contact-fram-text {
           margin-top:30%;
-       color:black;
+       color:$black;
         }
         @media only screen and (max-width: 1080px) {
         #contact-fram-text {
