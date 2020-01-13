@@ -1,3 +1,7 @@
+* {
+  font-style: italic;
+}
+
 #carousel-text-color-darkgrey {
   color: #f0f0f0 gray, 2%;
 }
@@ -46,10 +50,29 @@ h1 {
   color: #717171;
 }
 
+#home-last-image {
+  border: none;
+  background-color: inherit;
+}
+
 @media only screen and (max-width: 650px) {
+  .carousel-item img {
+    height: 350px;
+  }
   #home-last-image {
-    max-width: 80%;
+    margin-left: 0;
+    padding: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: none;
+    background-color: inherit;
+  }
+  #home-last-image img {
+    max-width: 380px;
     height: 100%;
+    border: none;
+    background-color: inherit;
   }
 }
 /*# sourceMappingURL=home.component.css.map */

@@ -1,6 +1,6 @@
 @import '../../_colors.scss';
 
-
+*{font-style:italic;}
  
 #carousel-text-color-darkgrey {
  color: $white($dark-gray, 2%)
@@ -49,9 +49,23 @@ h1 {
 #card-img-text strong{
     color: darken($white,50%);
 }
+#home-last-image {
+    border: none; background-color: inherit; 
+   }
   @media only screen and (max-width: 650px) {
-        #home-last-image {
-         max-width:80%;
+    .carousel-item img {
+        height: 350px;
+    }
+     #home-last-image {
+        margin-left: 0;
+        padding: 0;
+        align-items: center;
+        border: none; background-color: inherit; 
+       }
+        #home-last-image img {
+         max-width:380px;
          height: 100%;
-        }}
+                          border: none; background-color: inherit; 
+        }
+    }
         

@@ -70,7 +70,7 @@
       position: absolute;
       top: 15px;
       right: 35px;
-      color: darken($white,10%);
+      color: darken($white,70%);
       font-size: 40px;
       font-weight: bold;
       transition: 0.3s;
@@ -78,7 +78,7 @@
     
     .close:hover,
     .close:focus {
-      color: darken($white,10%);
+      color: $black;
       text-decoration: none;
       cursor: pointer;
     }
@@ -93,7 +93,7 @@
       width:100%;cursor:zoom-in
     }
     #card-img-later {
-      margin-top: 100px;
+      margin-top: 20px;
       
     }
     #card-img-later img {
@@ -102,7 +102,12 @@
     #card-img-text{ 
       margin-top:240px}
       
-  
+      @media only screen and (max-width: 850px){
+        #card-img-later {
+          margin-top: 60px;
+          
+        }
+      }
     
   
     

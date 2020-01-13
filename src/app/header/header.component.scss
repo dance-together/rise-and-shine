@@ -165,9 +165,8 @@ example_f {
 
 
 
-@media only screen and (max-width: 990px) and (min-width: 770px) {
-
-  .navbar-nav{
+@media only screen and (max-width: 990px) and (min-width: 765px) {
+    .navbar-nav{
 display: grid;
 grid-template-columns: auto auto auto;
  }
@@ -205,6 +204,7 @@ grid-template-columns: auto auto auto;
 
 @media only screen and  (min-width: 1060px) {
 
+ 
   .fill-button > .fill-button-hover:after, .fill-button > .fill-button-hover:before {
  
   height:30px;

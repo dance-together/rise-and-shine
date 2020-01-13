@@ -181,7 +181,7 @@ example_f {
   width: 100%;
 }
 
-@media only screen and (max-width: 990px) and (min-width: 770px) {
+@media only screen and (max-width: 990px) and (min-width: 765px) {
   .navbar-nav {
     display: -ms-grid;
     display: grid;

@@ -2,4 +2,35 @@
 img {
     height: 400px;
 }
+#development-first-image {
+    border: none; background-color: inherit; 
+   }
 
+    
+    @media only screen and (max-width: 1250px) and (min-width: 850px) {
+        #development-first-image  {
+            max-width:360px;
+            align-items: center;
+        }
+        }
+      @media only screen and (max-width: 850px)and (min-width: 650px) {
+        #development-first-image img{
+            max-width:360px;
+            align-items: center;
+        }
+        }
+        @media only screen and (max-width: 650px)  {
+  
+            #development-first-image {
+               margin-left: 0;
+               padding: 0;
+               align-items: center;
+               border: none; background-color: inherit; 
+              }
+              #development-first-image {
+                max-width:300px;
+                align-items: center;
+                height: 100%;
+                                 border: none; background-color: inherit; 
+               }
+           }
