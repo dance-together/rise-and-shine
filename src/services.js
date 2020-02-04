@@ -1,47 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Projekt Webb</title>
-  <base href="/">
-  <link href="services.js"></link>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-  <script src="https://kit.fontawesome.com/202432a3bf.js"></script>
-
-</head>
-<body>
-  <app-root></app-root>
-
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
-
-  
-    
-  <button onclick="topFunction()" id="myBtn" ><div class="back-to-top mx-2 active">
-    <i class="fa fa-angle-up"></i>
-  </div></button>
-    
-
-    
-    <script>
-    //Get the button
+    {/* Get the button */}
     var mybutton = document.getElementById("myBtn");
     
     // When the user scrolls down 20px from the top of the document, show the button
@@ -60,11 +19,10 @@
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     }
-    </script>
+    
 
-<!-- header part -->
+//<!-- header part -->
 
-<script>
   $(function(){
     var navStatesInPixelHeight = [110,120];
       
@@ -97,11 +55,10 @@
       }
     });
   });
-</script>
 
-<!-- read more read less -->
 
-<script>
+//<!-- read more read less -->
+
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
@@ -117,7 +74,5 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
-</script>
+
   
-    </body>
-    </html>
