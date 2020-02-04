@@ -221,4 +221,22 @@ example_f {
     height: 30px;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  header img {
+    width: 150px;
+    margin-left: 7px;
+    margin-right: -7px;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 373px) {
+  header img {
+    width: 106px;
+    margin-left: 7px;
+    margin-right: -7px;
+    padding: 0;
+  }
+}
 /*# sourceMappingURL=header.component.css.map */
